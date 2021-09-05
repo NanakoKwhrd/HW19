@@ -1,0 +1,450 @@
+
+#body{
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    height: auto;
+    margin: 5%;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.titleName{
+    /* border: solid; */
+    margin-left: -25px;
+    margin-bottom: 25px;
+    color:black;
+
+  list-style-type: none;
+}
+
+
+
+#sideNavBar{
+width: 250px;
+/* border: solid; */
+/* justify-content: flex-start; */
+display: flex;
+flex-direction: column;
+    
+}
+
+
+#mainContent{
+   text-align: center;
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+}
+
+#h1{
+    letter-spacing: 4px;
+    
+    
+}
+
+#h1 span{
+
+    font-weight: 100;
+
+}
+
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    margin-top:80px
+
+
+}
+
+
+.intro img{
+    height: 155px;
+    width: 155px;
+    
+}
+
+.right{
+    
+    padding:0px 40px 40px 40px;
+}
+
+.intro{
+    width: 50%;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+   
+    /* align-content: center;  */
+    /* border: solid; */
+
+
+}
+
+#downloadResume{
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    line-height: 35px;
+}
+
+
+
+#face{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.uxSkills{
+    display: block;
+    flex-direction: column;
+    border: solid 1px;
+    width:25%;
+    height: 45%;
+    margin: 2px;
+    margin-bottom: 15px;
+
+
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#aboutMe{
+    height: 30%;
+    
+   
+
+}
+
+
+
+
+#heroImage{
+   height: 65%;
+   width: 75%;
+   margin-left: 12%;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: solid; */
+}
+
+#resume{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+    
+}
+
+.detailedInformation{
+    display: block;
+    
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    /* position: absolute;
+    bottom: 0; */
+    width:100%;
+    /* height: 2.5rem; */
+    margin-bottom: 30px;
+    
+  
+
+       
+   
+}
+
+
+.footer{
+    /* border:solid; */
+    width: 20%;
+    /* position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 2.5rem; */
+    
+
+
+}
+
+#heroImage img{
+    width: 100%;
+    height:100%;
+   
+    
+}
+
+#download{
+    position: absolute;
+    top:24%;
+
+  
+}
+
+#seeMore{
+    height: 50px;
+}
+
+
+
+
+.grid{
+    padding: 10px;
+    display: grid;
+    /* border: solid; */
+    width: 100%;
+    /* height: 500px; */
+    margin: 10% auto;
+    /* margin-top: none;
+    margin-bottom: none; */
+    height: 430px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "sample1 top"
+    "sample2 middle"
+    "sample3 bottom"
+    ;
+}
+
+#moreProjects{
+    margin-top: -100px;
+}
+
+#secondContent{
+
+display: block;
+text-align: center;
+
+
+}
+.sample1{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample1;
+    
+    
+    
+}
+.sample2{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample2;
+    
+}
+.sample3{
+    
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample3;
+    
+}
+
+.top{
+    grid-area: top;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgb(245, 238, 238);
+    width: 85%
+    /* border-bottom: solid 1px; */
+    /* border:solid 1px; */
+    /* border-left: none; */
+    /* padding-top: 3px; */
+    
+    
+}
+.middle{
+    grid-area: middle;
+    text-align: left;
+    padding-left: 20px;
+    width: 85%
+    /* border-bottom: solid 1px; */
+    /* border:solid 1px;
+    border-left: none;
+    border-top: none; */
+    /* padding-top: 7px; */
+}
+.bottom{
+    grid-area: bottom;
+    text-align: left;
+    padding-left: 20px;
+    background-color:rgb(245, 238, 238);
+    width: 85%
+    /* border-bottom: solid 1px; */
+    /* border:solid 1px;
+    border-left: none;
+    border-top: none; */
+    /* padding-top: 7px; */
+}
+
+
+#h1{
+    height: 50px;
+    /* border: solid; */
+    /* margin-top: -0.5px; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+}
+
+#headings{
+    border:solid
+}
+
+
+    #h12{
+     margin-bottom: -8%;
+     margin-top: 10%;
+     letter-spacing:2px ;
+     font-weight: 100;
+    }
+
+    #h13{
+        letter-spacing:2px ;
+     font-weight: 100;
+
+    }
+
+    #uxSkills{
+
+        /* margin-top: -6%; */
+        margin-bottom: 8%;
+    }
+
+    /* @media only screen and (max-width: 600px){
+        #card {
+            display: block;
+            width: 100%;
+        
+        }} */
+
+        .btn{
+            width: 50%;
+            
+            background-color: black;
+        }
+
+        .click{
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+
+
+        .preloader {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            z-index: 100000;
+            background-color: white;
+            top: 0;
+            display: flex;
+            align-items: center;
+          }
+
+          .preloader img {
+            /* animation: spin 3s ease;
+            transition: all; */
+            width: 300px;
+            margin: 0 auto;
+            animation: loadBar 3s;
+            animation-fill-mode:forwards;
+          }
+
+
+          @keyframes loadBar {
+            from {
+              width: 40%;
+            }
+            to {
+              width: 60%;
+            }
+          }
+
+
+          #popup{
+              
+              background-color: white;
+              position: fixed;
+              height: 75x;
+              width: 200px;
+              top:50%;
+              left: 50%;
+              border: solid 1px;
+          }
+
+          #doc{
+              width:25px;
+              height: auto;
+          }
+
+          #inside{
+              
+              left:10px;
+              padding:15px 15px 15px 5px;
+            
+          }
+
+          #close{
+              margin-left: 90%;
+              margin-top: 3%;
+              width: 15px;
+             
+          }
+
+         
+
+          #expand{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              /* border:solid; */
+              margin-top: -50px;
+          }
+
+          #intro p{
+              line-height: 30px;
+          }
+
+          .logo2{
+              margin-bottom: -20px;
+          }
